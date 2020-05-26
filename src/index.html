@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <meta charset="UTF-8" />
+        <title>PIXI.js, TS, Gulp</title>
+    </head>
+    <body>
+        <header align="center">
+                <div class="text big" id="shapesNumber"></div>
+                <div class="text big" id="surfaceOccupied"></div>
+        </header>
+        
+           <div id="pixi"></div>
+        
+        <footer align="center">
+            <div class="controls" id="shapesControls">
+                <div class="text big" align="center">Shapes per second</div>
+                <div>
+                    <div class="button" align="center" id="iShapes">+</div>
+                    <div class="button" align="center" id="dShapes">-</div>
+                    <div class="text" id="shapesPerSecond"></div>
+                </div>
+            </div>
+            <div class="controls" id="gravityControls">
+                <div class="text big" align="center">Gravity, extra pixels per second</div>
+                <div>
+                    <div class="button" align="center" id="iGravity">+</div>
+                    <div class="button" align="center" id="dGravity">-</div>
+                    <div class="text" id="gravity"></div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>
